@@ -12,6 +12,7 @@ import java.util.Date;
 
 public class Compte {
 //on incremente la valeur -> GenerationType.IDENTITY
+//hgd
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long code;
     private double solde;
